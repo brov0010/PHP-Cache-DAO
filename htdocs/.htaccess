@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^users/(.*)?$ /users.php?id=$1 [NC,L]
